@@ -9,22 +9,22 @@
 /* Begin PBXAggregateTarget section */
 		173B328AB0294276B2EA4A84 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E5768CD2A2F640BAB9B79ED9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 8F3A3B5CC42D4B9A92B7D703 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				997CAA0CB0E04F9CBBDBB31E /* Generate CMakeFiles/ALL_BUILD */,
+				ECE907B2365E4DB089925B9B /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				65E3AE8690914BD3A0B6A8F8 /* PBXTargetDependency */,
-				5F8835E97D92460DA577BF5B /* PBXTargetDependency */,
+				8AD0B126D3034CDCB71F5F70 /* PBXTargetDependency */,
+				340AFEDA0FAF48CF9EE275AA /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		8FEB3DD50CAB4BB99A9DF4F6 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = AE3DFC32E1B749EF8D44B7FF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 09E2FD8BB44F4D2A8328F804 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				2251349CA90548F4834AB8EB /* Generate CMakeFiles/ZERO_CHECK */,
+				602A846BEB8845388B61E48E /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
@@ -34,35 +34,35 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		55C7D507E871437498A53CDA /* /Users/apple/Desktop/PRALG/TP4/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 902C7CFC54A343D7891EB93F /* /Users/apple/Desktop/PRALG/TP4/CMakeLists.txt */; };
-		80D527F6313B4355BDF1E35F /* /Users/apple/Desktop/PRALG/TP4/main.cpp */ = {isa = PBXBuildFile; fileRef = 955CC367BD81497CAF7C4A5D /* /Users/apple/Desktop/PRALG/TP4/main.cpp */; };
-		BDE49F40562C46AB93535E89 /* /Users/apple/Desktop/PRALG/TP4/quadtree/quadtree.h */ = {isa = PBXBuildFile; fileRef = 2981800ADEB04F3FBB8965F0 /* /Users/apple/Desktop/PRALG/TP4/quadtree/quadtree.h */; };
-		EB29E2CF14A6458C9A91FBBC /* /Users/apple/Desktop/PRALG/TP4/tools.h */ = {isa = PBXBuildFile; fileRef = FBB811A442A74C1E863B2780 /* /Users/apple/Desktop/PRALG/TP4/tools.h */; };
+		13CA95A7F1984664AD914887 /* /Users/apple/Desktop/PRALG/TP4/quadtree/quadtree.h */ = {isa = PBXBuildFile; fileRef = B59B7121019242AC92A54667 /* /Users/apple/Desktop/PRALG/TP4/quadtree/quadtree.h */; };
+		3D9A2E63497646C5AF673DDF /* /Users/apple/Desktop/PRALG/TP4/main.cpp */ = {isa = PBXBuildFile; fileRef = C09D94569398489CB76BF153 /* /Users/apple/Desktop/PRALG/TP4/main.cpp */; };
+		649554068B1A455A93E4F4E9 /* /Users/apple/Desktop/PRALG/TP4/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9F05281DB2A84512BE75447B /* /Users/apple/Desktop/PRALG/TP4/CMakeLists.txt */; };
+		80C683F7E57241449E1ED20D /* /Users/apple/Desktop/PRALG/TP4/dfs.h */ = {isa = PBXBuildFile; fileRef = 295C251E6FFC4891B4E1CB4D /* /Users/apple/Desktop/PRALG/TP4/dfs.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		3B8C8B4F586E44EBB4A006E1 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		698F2C7BC4194F87B02021A2 /* Debug */ = {
+		1E2CF073E4354D3FB14591DD /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		73DFFF7918F449B4BA9DEFA0 /* RelWithDebInfo */ = {
+		27612021AD0F4335A8780689 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		C37D14BC7A464CCD8BF95814 /* MinSizeRel */ = {
+		28C91EEA32904A40A35A5B77 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FAD6FCFEF7F14EC88844B6A5 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -72,40 +72,40 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		66087FECC48841C1B850CEA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A1C88F0A33D4FB98D6DF41B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8FEB3DD50CAB4BB99A9DF4F6;
-			remoteInfo = ZERO_CHECK;
-		};
-		A023ECC6560B44C099C0237D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A1C88F0A33D4FB98D6DF41B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8FEB3DD50CAB4BB99A9DF4F6;
-			remoteInfo = ZERO_CHECK;
-		};
-		B94E76BC35154A4CB7F49689 /* PBXContainerItemProxy */ = {
+		34160AE4747442D985918AB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8A1C88F0A33D4FB98D6DF41B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 91B89DC30D904CBBA4F932E3;
 			remoteInfo = TP4;
 		};
+		984EB2ACB8F44CF8AE27388C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1C88F0A33D4FB98D6DF41B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FEB3DD50CAB4BB99A9DF4F6;
+			remoteInfo = ZERO_CHECK;
+		};
+		FEE96A99AB0E43D0A529234E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1C88F0A33D4FB98D6DF41B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FEB3DD50CAB4BB99A9DF4F6;
+			remoteInfo = ZERO_CHECK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2981800ADEB04F3FBB8965F0 /* /Users/apple/Desktop/PRALG/TP4/quadtree/quadtree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quadtree.h; path = quadtree/quadtree.h; sourceTree = SOURCE_ROOT; };
-		902C7CFC54A343D7891EB93F /* /Users/apple/Desktop/PRALG/TP4/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		955CC367BD81497CAF7C4A5D /* /Users/apple/Desktop/PRALG/TP4/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
-		B2E876E5287C4F5382A35941 /* TP4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = TP4; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD35B09FF5FD468293A776E0 /* /Users/apple/Desktop/PRALG/TP4/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		FBB811A442A74C1E863B2780 /* /Users/apple/Desktop/PRALG/TP4/tools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tools.h; path = tools.h; sourceTree = SOURCE_ROOT; };
+		295C251E6FFC4891B4E1CB4D /* /Users/apple/Desktop/PRALG/TP4/dfs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dfs.h; path = dfs.h; sourceTree = SOURCE_ROOT; };
+		6D8ADA5399044E8AAD5C99F7 /* TP4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = TP4; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F05281DB2A84512BE75447B /* /Users/apple/Desktop/PRALG/TP4/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B59B7121019242AC92A54667 /* /Users/apple/Desktop/PRALG/TP4/quadtree/quadtree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quadtree.h; path = quadtree/quadtree.h; sourceTree = SOURCE_ROOT; };
+		C09D94569398489CB76BF153 /* /Users/apple/Desktop/PRALG/TP4/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		D1A26A057CE14533ACF9F9B0 /* /Users/apple/Desktop/PRALG/TP4/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C38C2E90558A4050AE54CC68 /* Frameworks */ = {
+		3491B3370E65405C81E7D173 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,72 +115,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0080D556D70B4D54B3318A4A /* Header Files */ = {
+		0AE495C60AEF41B1BAFD1B58 /* TP4 */ = {
 			isa = PBXGroup;
 			children = (
-				2981800ADEB04F3FBB8965F0 /* /Users/apple/Desktop/PRALG/TP4/quadtree/quadtree.h */,
-				FBB811A442A74C1E863B2780 /* /Users/apple/Desktop/PRALG/TP4/tools.h */,
+				19E4F95009E147E595DE7F34 /* Header Files */,
+				E8F710A82748486585541979 /* Source Files */,
+				9F05281DB2A84512BE75447B /* /Users/apple/Desktop/PRALG/TP4/CMakeLists.txt */,
+			);
+			name = TP4;
+			sourceTree = "<group>";
+		};
+		19E4F95009E147E595DE7F34 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				295C251E6FFC4891B4E1CB4D /* /Users/apple/Desktop/PRALG/TP4/dfs.h */,
+				B59B7121019242AC92A54667 /* /Users/apple/Desktop/PRALG/TP4/quadtree/quadtree.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		516D096063AF4F5D80FD35EE /* Products */ = {
+		6DD7CB4881264D5C9D30A60F = {
 			isa = PBXGroup;
 			children = (
-				B2E876E5287C4F5382A35941 /* TP4 */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6C512C9BEBB74F66B6CA4D4A /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				908EF8C80C834F6BAF43F8EF /* CMake Rules */,
-				CD35B09FF5FD468293A776E0 /* /Users/apple/Desktop/PRALG/TP4/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		908EF8C80C834F6BAF43F8EF /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		A6705A0B88CD45428701D670 = {
-			isa = PBXGroup;
-			children = (
-				C83EB0CD57A04043A279FF9D /* TP4 */,
-				6C512C9BEBB74F66B6CA4D4A /* ALL_BUILD */,
-				516D096063AF4F5D80FD35EE /* Products */,
-				A6C72110274C4EA0A2FC2EAA /* Frameworks */,
+				0AE495C60AEF41B1BAFD1B58 /* TP4 */,
+				AB13F0238FD344E6B05CEF7A /* ALL_BUILD */,
+				D4DF46DA4B48470C8AB0D14D /* Products */,
+				A73D00E4F10040B6852B50A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		A6C72110274C4EA0A2FC2EAA /* Frameworks */ = {
+		A73D00E4F10040B6852B50A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C63EB7B0A56140FB8696F8A0 /* Source Files */ = {
+		AB13F0238FD344E6B05CEF7A /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				955CC367BD81497CAF7C4A5D /* /Users/apple/Desktop/PRALG/TP4/main.cpp */,
+				F8A3862EBE1146769E32E082 /* CMake Rules */,
+				D1A26A057CE14533ACF9F9B0 /* /Users/apple/Desktop/PRALG/TP4/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D4DF46DA4B48470C8AB0D14D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D8ADA5399044E8AAD5C99F7 /* TP4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8F710A82748486585541979 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C09D94569398489CB76BF153 /* /Users/apple/Desktop/PRALG/TP4/main.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		C83EB0CD57A04043A279FF9D /* TP4 */ = {
+		F8A3862EBE1146769E32E082 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				0080D556D70B4D54B3318A4A /* Header Files */,
-				C63EB7B0A56140FB8696F8A0 /* Source Files */,
-				902C7CFC54A343D7891EB93F /* /Users/apple/Desktop/PRALG/TP4/CMakeLists.txt */,
 			);
-			name = TP4;
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,19 +188,19 @@
 /* Begin PBXNativeTarget section */
 		91B89DC30D904CBBA4F932E3 /* TP4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80F899CB8F834076B898BBE3 /* Build configuration list for PBXNativeTarget "TP4" */;
+			buildConfigurationList = 39F39450864D48F3B5F8E532 /* Build configuration list for PBXNativeTarget "TP4" */;
 			buildPhases = (
-				E2A4EF6096554140A5FB55F4 /* Sources */,
-				C38C2E90558A4050AE54CC68 /* Frameworks */,
+				AAEE40E621A34081BA5D340C /* Sources */,
+				3491B3370E65405C81E7D173 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9E2740E19A7A458B997845F1 /* PBXTargetDependency */,
+				6E359EEEF81D46728C79E104 /* PBXTargetDependency */,
 			);
 			name = TP4;
 			productName = TP4;
-			productReference = B2E876E5287C4F5382A35941 /* TP4 */;
+			productReference = 6D8ADA5399044E8AAD5C99F7 /* TP4 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -212,18 +212,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1210;
 			};
-			buildConfigurationList = B4F597EDAA0245268E137119 /* Build configuration list for PBXProject "TP4" */;
+			buildConfigurationList = 41F344E1EC2C4539ABC60325 /* Build configuration list for PBXProject "TP4" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				698F2C7BC4194F87B02021A2 /* Debug */,
-				3B8C8B4F586E44EBB4A006E1 /* Release */,
-				C37D14BC7A464CCD8BF95814 /* MinSizeRel */,
-				73DFFF7918F449B4BA9DEFA0 /* RelWithDebInfo */,
+				1E2CF073E4354D3FB14591DD /* Debug */,
+				28C91EEA32904A40A35A5B77 /* Release */,
+				FAD6FCFEF7F14EC88844B6A5 /* MinSizeRel */,
+				27612021AD0F4335A8780689 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = A6705A0B88CD45428701D670;
+			mainGroup = 6DD7CB4881264D5C9D30A60F;
 			projectDirPath = .;
 			projectRoot = "";
 			targets = (
@@ -235,7 +235,22 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2251349CA90548F4834AB8EB /* Generate CMakeFiles/ZERO_CHECK */ = {
+		31AB150B92DF44769F472751 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		602A846BEB8845388B61E48E /* Generate CMakeFiles/ZERO_CHECK */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -268,7 +283,7 @@ fi
 ";
 			showEnvVarsInLog = 0;
 		};
-		8793222416CD458EA83DEDB5 = {
+		DDF8A3E1D25848C8BA78E65D = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,7 +298,7 @@ fi
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		997CAA0CB0E04F9CBBDBB31E /* Generate CMakeFiles/ALL_BUILD */ = {
+		ECE907B2365E4DB089925B9B /* Generate CMakeFiles/ALL_BUILD */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -316,122 +331,39 @@ fi
 ";
 			showEnvVarsInLog = 0;
 		};
-		EB2ACC38664B4A73A8524605 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E2A4EF6096554140A5FB55F4 /* Sources */ = {
+		AAEE40E621A34081BA5D340C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D527F6313B4355BDF1E35F /* /Users/apple/Desktop/PRALG/TP4/main.cpp */,
+				3D9A2E63497646C5AF673DDF /* /Users/apple/Desktop/PRALG/TP4/main.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5F8835E97D92460DA577BF5B /* PBXTargetDependency */ = {
+		340AFEDA0FAF48CF9EE275AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 91B89DC30D904CBBA4F932E3 /* TP4 */;
-			targetProxy = B94E76BC35154A4CB7F49689 /* PBXContainerItemProxy */;
+			targetProxy = 34160AE4747442D985918AB3 /* PBXContainerItemProxy */;
 		};
-		65E3AE8690914BD3A0B6A8F8 /* PBXTargetDependency */ = {
+		6E359EEEF81D46728C79E104 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8FEB3DD50CAB4BB99A9DF4F6 /* ZERO_CHECK */;
-			targetProxy = A023ECC6560B44C099C0237D /* PBXContainerItemProxy */;
+			targetProxy = FEE96A99AB0E43D0A529234E /* PBXContainerItemProxy */;
 		};
-		9E2740E19A7A458B997845F1 /* PBXTargetDependency */ = {
+		8AD0B126D3034CDCB71F5F70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8FEB3DD50CAB4BB99A9DF4F6 /* ZERO_CHECK */;
-			targetProxy = 66087FECC48841C1B850CEA1 /* PBXContainerItemProxy */;
+			targetProxy = 984EB2ACB8F44CF8AE27388C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DA43410473B4AC680A99D74 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		34A3CDBD0F2B48BFAFB4B99B /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		36C25E8AC7C84C7E80DF753A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,/Users/apple/Qt/5.12.9/clang_64/lib);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,QT_OPENGL_LIB);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Library/Frameworks/Imagine.framework/Versions/Current/Resources/include);
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = /Users/apple/Qt/5.12.9/clang_64/lib;
-				LIBRARY_SEARCH_PATHS = ();
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -DSRCDIR=\"/Users/apple/Desktop/PRALG/TP4\" -fPIC '-std=gnu++11' ";
-				OTHER_LDFLAGS = ("-L\"/Library/Frameworks/Imagine.framework/Versions/Current/Resources/lib\" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lImagineGraphics","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtOpenGL","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks","-framework OpenGL","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks","-framework OpenGL","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtWidgets","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtGui","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtCore");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = TP4;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/apple/Qt/5.12.9/clang_64/lib/QtCore.framework/Headers,"/Users/apple/Qt/5.12.9/clang_64/./mkspecs/macx-clang",/Users/apple/Qt/5.12.9/clang_64/lib/QtWidgets.framework/Headers,/Users/apple/Qt/5.12.9/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/apple/Qt/5.12.9/clang_64/lib/QtOpenGL.framework/Headers);
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		454CD14D257D469F9C646D96 /* MinSizeRel */ = {
+		05CF79A606114F0CA7711F94 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -441,143 +373,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		5552F419E4464A5D98051499 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		61E549D80FE249A8B855DF7E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		629032D0A268402387A8F42C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = /Users/apple/Desktop/PRALG/TP4/build;
-			};
-			name = Debug;
-		};
-		6608A403FCBC47FDAA81FD22 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,/Users/apple/Qt/5.12.9/clang_64/lib);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,QT_OPENGL_LIB);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Library/Frameworks/Imagine.framework/Versions/Current/Resources/include);
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = /Users/apple/Qt/5.12.9/clang_64/lib;
-				LIBRARY_SEARCH_PATHS = ();
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -DSRCDIR=\"/Users/apple/Desktop/PRALG/TP4\" -fPIC '-std=gnu++11' ";
-				OTHER_LDFLAGS = ("-L\"/Library/Frameworks/Imagine.framework/Versions/Current/Resources/lib\" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lImagineGraphics","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtOpenGL","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks","-framework OpenGL","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks","-framework OpenGL","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtWidgets","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtGui","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtCore");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = TP4;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/apple/Qt/5.12.9/clang_64/lib/QtCore.framework/Headers,"/Users/apple/Qt/5.12.9/clang_64/./mkspecs/macx-clang",/Users/apple/Qt/5.12.9/clang_64/lib/QtWidgets.framework/Headers,/Users/apple/Qt/5.12.9/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/apple/Qt/5.12.9/clang_64/lib/QtOpenGL.framework/Headers);
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		6FD8838E90EC49DDBBF5117D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = /Users/apple/Desktop/PRALG/TP4/build;
-			};
-			name = Release;
-		};
-		8D208ABBA5AA4BFDADF135A8 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		B1965F0F44E7476488B6E1E7 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,/Users/apple/Qt/5.12.9/clang_64/lib);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,QT_OPENGL_LIB);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Library/Frameworks/Imagine.framework/Versions/Current/Resources/include);
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = /Users/apple/Qt/5.12.9/clang_64/lib;
-				LIBRARY_SEARCH_PATHS = ();
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -DSRCDIR=\"/Users/apple/Desktop/PRALG/TP4\" -fPIC '-std=gnu++11' ";
-				OTHER_LDFLAGS = ("-L\"/Library/Frameworks/Imagine.framework/Versions/Current/Resources/lib\" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lImagineGraphics","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtOpenGL","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks","-framework OpenGL","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks","-framework OpenGL","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtWidgets","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtGui","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtCore");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = TP4;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/apple/Qt/5.12.9/clang_64/lib/QtCore.framework/Headers,"/Users/apple/Qt/5.12.9/clang_64/./mkspecs/macx-clang",/Users/apple/Qt/5.12.9/clang_64/lib/QtWidgets.framework/Headers,/Users/apple/Qt/5.12.9/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/apple/Qt/5.12.9/clang_64/lib/QtOpenGL.framework/Headers);
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		C7E2CA1DAF56435CB3701ED4 /* Release */ = {
+		07DC0C30EB3B41FC835BEC08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -597,17 +393,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		C87357533B654CE6BD14C1FC /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = /Users/apple/Desktop/PRALG/TP4/build;
-			};
-			name = RelWithDebInfo;
-		};
-		D3A9BDD32A1940B6962FD9C2 /* Debug */ = {
+		17E07CBA54EE47D499901264 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -625,9 +411,29 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = Release;
 		};
-		ED90D8DB68564E2EB6A3B74C /* Debug */ = {
+		1BDA45E60FA543E0A160B0F0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		329E73E7D88A401EBA247C4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -655,7 +461,75 @@ exit 0";
 			};
 			name = Debug;
 		};
-		F616AD0A15E5418890651CB6 /* MinSizeRel */ = {
+		54622916364849E2BE7F6FE0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,/Users/apple/Qt/5.12.9/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,QT_OPENGL_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Library/Frameworks/Imagine.framework/Versions/Current/Resources/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/apple/Qt/5.12.9/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = ();
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -DSRCDIR=\"/Users/apple/Desktop/PRALG/TP4\" -fPIC '-std=gnu++11' ";
+				OTHER_LDFLAGS = ("-L\"/Library/Frameworks/Imagine.framework/Versions/Current/Resources/lib\" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lImagineGraphics","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtOpenGL","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks","-framework OpenGL","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks","-framework OpenGL","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtWidgets","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtGui","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtCore");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TP4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/apple/Qt/5.12.9/clang_64/lib/QtCore.framework/Headers,"/Users/apple/Qt/5.12.9/clang_64/./mkspecs/macx-clang",/Users/apple/Qt/5.12.9/clang_64/lib/QtWidgets.framework/Headers,/Users/apple/Qt/5.12.9/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/apple/Qt/5.12.9/clang_64/lib/QtOpenGL.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6535ABF7FF9C4B94A050ABC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6AD35138B6674082B46901BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		72373323D3D64EC6A7BEFE36 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -675,49 +549,175 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
+		887BEC7CAD884064AEF019A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/apple/Desktop/PRALG/TP4/build;
+			};
+			name = Release;
+		};
+		B433D16194134A51956F7E8E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,/Users/apple/Qt/5.12.9/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,QT_OPENGL_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Library/Frameworks/Imagine.framework/Versions/Current/Resources/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/apple/Qt/5.12.9/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = ();
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -DSRCDIR=\"/Users/apple/Desktop/PRALG/TP4\" -fPIC '-std=gnu++11' ";
+				OTHER_LDFLAGS = ("-L\"/Library/Frameworks/Imagine.framework/Versions/Current/Resources/lib\" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lImagineGraphics","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtOpenGL","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks","-framework OpenGL","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks","-framework OpenGL","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtWidgets","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtGui","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtCore");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TP4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/apple/Qt/5.12.9/clang_64/lib/QtCore.framework/Headers,"/Users/apple/Qt/5.12.9/clang_64/./mkspecs/macx-clang",/Users/apple/Qt/5.12.9/clang_64/lib/QtWidgets.framework/Headers,/Users/apple/Qt/5.12.9/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/apple/Qt/5.12.9/clang_64/lib/QtOpenGL.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CFB48D8A2EF34F03836239FB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/apple/Desktop/PRALG/TP4/build;
+			};
+			name = RelWithDebInfo;
+		};
+		DAA2D151377747D690D3CBF4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DF5F421686A84BDCBDA44DC3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E6B8651B000243B4A7D1FDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks,/Users/apple/Qt/5.12.9/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,QT_OPENGL_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Library/Frameworks/Imagine.framework/Versions/Current/Resources/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/apple/Qt/5.12.9/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = ();
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -DSRCDIR=\"/Users/apple/Desktop/PRALG/TP4\" -fPIC '-std=gnu++11' ";
+				OTHER_LDFLAGS = ("-L\"/Library/Frameworks/Imagine.framework/Versions/Current/Resources/lib\" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lImagineGraphics","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtOpenGL","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks","-framework OpenGL","-F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks","-framework OpenGL","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtWidgets","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtGui","-F /Users/apple/Qt/5.12.9/clang_64/lib","-framework QtCore");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TP4;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/apple/Desktop/PRALG/TP4;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/apple/Qt/5.12.9/clang_64/lib/QtCore.framework/Headers,"/Users/apple/Qt/5.12.9/clang_64/./mkspecs/macx-clang",/Users/apple/Qt/5.12.9/clang_64/lib/QtWidgets.framework/Headers,/Users/apple/Qt/5.12.9/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/apple/Qt/5.12.9/clang_64/lib/QtOpenGL.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F14F6AEDDC524585BF099EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/apple/Desktop/PRALG/TP4/build;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80F899CB8F834076B898BBE3 /* Build configuration list for PBXNativeTarget "TP4" */ = {
+		09E2FD8BB44F4D2A8328F804 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED90D8DB68564E2EB6A3B74C /* Debug */,
-				36C25E8AC7C84C7E80DF753A /* Release */,
-				6608A403FCBC47FDAA81FD22 /* MinSizeRel */,
-				B1965F0F44E7476488B6E1E7 /* RelWithDebInfo */,
+				6AD35138B6674082B46901BD /* Debug */,
+				07DC0C30EB3B41FC835BEC08 /* Release */,
+				72373323D3D64EC6A7BEFE36 /* MinSizeRel */,
+				DAA2D151377747D690D3CBF4 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		AE3DFC32E1B749EF8D44B7FF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		39F39450864D48F3B5F8E532 /* Build configuration list for PBXNativeTarget "TP4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DA43410473B4AC680A99D74 /* Debug */,
-				C7E2CA1DAF56435CB3701ED4 /* Release */,
-				F616AD0A15E5418890651CB6 /* MinSizeRel */,
-				5552F419E4464A5D98051499 /* RelWithDebInfo */,
+				329E73E7D88A401EBA247C4C /* Debug */,
+				E6B8651B000243B4A7D1FDA5 /* Release */,
+				B433D16194134A51956F7E8E /* MinSizeRel */,
+				54622916364849E2BE7F6FE0 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B4F597EDAA0245268E137119 /* Build configuration list for PBXProject "TP4" */ = {
+		41F344E1EC2C4539ABC60325 /* Build configuration list for PBXProject "TP4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				629032D0A268402387A8F42C /* Debug */,
-				6FD8838E90EC49DDBBF5117D /* Release */,
-				454CD14D257D469F9C646D96 /* MinSizeRel */,
-				C87357533B654CE6BD14C1FC /* RelWithDebInfo */,
+				F14F6AEDDC524585BF099EE4 /* Debug */,
+				887BEC7CAD884064AEF019A4 /* Release */,
+				05CF79A606114F0CA7711F94 /* MinSizeRel */,
+				CFB48D8A2EF34F03836239FB /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E5768CD2A2F640BAB9B79ED9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		8F3A3B5CC42D4B9A92B7D703 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3A9BDD32A1940B6962FD9C2 /* Debug */,
-				61E549D80FE249A8B855DF7E /* Release */,
-				8D208ABBA5AA4BFDADF135A8 /* MinSizeRel */,
-				34A3CDBD0F2B48BFAFB4B99B /* RelWithDebInfo */,
+				6535ABF7FF9C4B94A050ABC7 /* Debug */,
+				17E07CBA54EE47D499901264 /* Release */,
+				1BDA45E60FA543E0A160B0F0 /* MinSizeRel */,
+				DF5F421686A84BDCBDA44DC3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

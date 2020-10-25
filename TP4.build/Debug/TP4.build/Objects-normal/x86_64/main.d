@@ -21,4 +21,4 @@ dependencies: /Users/apple/Desktop/PRALG/TP4/main.cpp \
   /Library/Frameworks/Imagine.framework/Versions/Current/Resources/include/Imagine/Graphics/Mesh.h \
   /Library/Frameworks/Imagine.framework/Versions/Current/Resources/include/Imagine/Graphics/Window.h \
   /Users/apple/Desktop/PRALG/TP4/quadtree/quadtree.h \
-  /Users/apple/Desktop/PRALG/TP4/tools.h
+  /Users/apple/Desktop/PRALG/TP4/dfs.h

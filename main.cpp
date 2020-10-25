@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <iostream>
 #include "quadtree/quadtree.h"
-#include "tools.h"
+#include "dfs.h"
 
 using namespace Imagine;
 using namespace std;
@@ -110,6 +110,7 @@ int main(int argc, char **argv) {
     
     delete[] imageDecoded;
     delete[] imageDecoded2;
+    delete[] imageDecoded3;
 
     delete black;
     delete white;

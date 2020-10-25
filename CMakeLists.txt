@@ -8,5 +8,5 @@ set(CMAKE_PREFIX_PATH $ENV{HOME}/Qt/5.12.9/clang_64)
 
 project(TP4)
 
-add_executable(TP4 quadtree/quadtree.h tools.h main.cpp)
+add_executable(TP4 quadtree/quadtree.h dfs.h main.cpp)
 ImagineUseModules(TP4 Graphics)
