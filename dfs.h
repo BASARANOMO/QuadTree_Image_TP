@@ -66,7 +66,13 @@ QuadTree<T>* dfs(T* image, int x, int y, int length, int const width, int const 
 };
 
 template<typename T>
-QuadTree<T>* dfsLossyCompression(T* image, int x, int y, int length, int const width, int const height, bool const fillByWhite, T const epsilon) {
+T thresholdAccordingToLength(int length, int lengthMax, T thresholdMin) {
+    int factor = log2(lengthMax / length);
+    return T(thresholdMin * (log2(factor) + 1));
+};
+
+template<typename T>
+QuadTree<T>* dfsLossyCompression(T* image, int x, int y, int length, int const width, int const height, bool const fillByWhite, T const thresholdMin) {
     if (length == 1) {
         if (x < width && y < height) {
             return new QuadLeaf<T>(image[width * y + x]);
@@ -81,12 +87,14 @@ QuadTree<T>* dfsLossyCompression(T* image, int x, int y, int length, int const w
         }
     }
     length /= 2;
-    auto northWest = dfsLossyCompression(image, x, y, length, width, height, fillByWhite, epsilon);
-    auto northEast = dfsLossyCompression(image, x + length, y, length, width, height, fillByWhite, epsilon);
-    auto southEast = dfsLossyCompression(image, x + length, y + length, length, width, height, fillByWhite, epsilon);
-    auto southWest = dfsLossyCompression(image, x, y + length, length, width, height, fillByWhite, epsilon);
     
-    if (similarLeaves(northWest, northEast, southEast, southWest, epsilon)) {
+    auto northWest = dfsLossyCompression(image, x, y, length, width, height, fillByWhite, thresholdMin);
+    auto northEast = dfsLossyCompression(image, x + length, y, length, width, height, fillByWhite, thresholdMin);
+    auto southEast = dfsLossyCompression(image, x + length, y + length, length, width, height, fillByWhite, thresholdMin);
+    auto southWest = dfsLossyCompression(image, x, y + length, length, width, height, fillByWhite, thresholdMin);
+    
+    T threshold = thresholdAccordingToLength(length, max(width, height), thresholdMin);
+    if (similarLeaves(northWest, northEast, southEast, southWest, threshold)) {
         T val = T((northWest->value() + northEast->value() + southEast->value() + southWest->value()) / 4);
         delete northWest;
         delete northEast;
@@ -98,6 +106,14 @@ QuadTree<T>* dfsLossyCompression(T* image, int x, int y, int length, int const w
         return new QuadNode<T>(northWest, northEast, southEast, southWest);
     }
 };
+
+template<typename T>
+void dfsLossyCompressionRGB(T* imageR, T* imageG, T* imageB, QuadTree<T>*& qR, QuadTree<T>*& qG, QuadTree<T>*& qB, int x, int y, int length, int const width, int const height, bool const fillByWhite, T const thresholdMin) {
+    qR = dfsLossyCompression(imageR, x, y, length, width, height, fillByWhite, thresholdMin);
+    qG = dfsLossyCompression(imageG, x, y, length, width, height, fillByWhite, thresholdMin);
+    qB = dfsLossyCompression(imageB, x, y, length, width, height, fillByWhite, thresholdMin);
+};
+
 
 // for black and white photo
 template<typename T>
@@ -244,12 +260,12 @@ bool sameLeaves(QuadTree<T>* q0, QuadTree<T>* q1, QuadTree<T>* q2, QuadTree<T>* 
 };
 
 template<typename T>
-bool similarLeaves(QuadTree<T>* son0, QuadTree<T>* son1, QuadTree<T>* son2, QuadTree<T>* son3, T epsilon) {
+bool similarLeaves(QuadTree<T>* son0, QuadTree<T>* son1, QuadTree<T>* son2, QuadTree<T>* son3, T threshold) {
     bool res = son0->isLeaf() && son1->isLeaf() && son2->isLeaf() && son3->isLeaf();
     if (res) {
         T maxVal = max(max(son0->value(), son1->value()), max(son2->value(), son3->value()));
         T minVal = min(min(son0->value(), son1->value()), min(son2->value(), son3->value()));
-        res = ((maxVal - minVal) < epsilon);
+        res = ((maxVal - minVal) < threshold);
     }
     return res;
 };

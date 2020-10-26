@@ -37,7 +37,7 @@ int main(int argc, char **argv) {
     
     // DAG tree size and compression ratio
     cout << "QuadTree DAG size (bytes in memory): " << sizeQuadTree(qDAG, true) << endl;
-    cout << "Compression ratio (nbr leaves / nbr pixels): " << imageCompressionRatio(qDAG, width, height) << endl;
+    cout << "Compression ratio (nbr leaves / nbr original pixels): " << imageCompressionRatio(qDAG, width, height) << endl;
     
     // Display image decoded
     Window window = openWindow(width, height);
@@ -46,7 +46,7 @@ int main(int argc, char **argv) {
     click();
     
     cout << "************************ RUNNING HORSE RECTANGLE *******************************" << endl;
-    // Get image file (default is running horse)
+    // Get image file
     const char *image_file2 =
         (argc > 1) ? argv[1] : srcPath("running-horse-rect.png");
     // Load image
@@ -73,7 +73,7 @@ int main(int argc, char **argv) {
     click();
 
     cout << "************************ LOSSY COMPRESSION *******************************" << endl;
-    // Get image file (default is running horse)
+    // Get image file
     const char *image_file3 =
         (argc > 1) ? argv[1] : srcPath("lossy_compression.png");
     // Load image
@@ -86,15 +86,46 @@ int main(int argc, char **argv) {
     cout << "Number of pixels: " << width3*height3 << endl;
     
     QuadTree<byte>* q3;
-    q3 = dfsLossyCompression(image3, 0, 0, width, width, height, true, byte(50));
+    q3 = dfsLossyCompression(image3, 0, 0, width3, width3, height3, true, byte(8));
     //display(q3);
     
     // image decoding
     byte* imageDecoded3 = new byte[width3 * height3];
     quadtreeDecoding(q3, imageDecoded3, 0, 0, width3, height3);
     
+    cout << "Compression ratio (nbr leaves / nbr original pixels): " << imageCompressionRatio(q3, width3, height3) << endl;
+    
     // Display image decoded
     putGreyImage(IntPoint2(0,0), imageDecoded3, width3, height3);
+    // Pause
+    click();
+
+    cout << "*********************** LOSSY COMPRESSION RGB *****************************" << endl;
+    // Get image file
+    const char *image_file4 =
+        (argc > 1) ? argv[1] : srcPath("lossy_compression_rgb.jpg");
+    // Load image
+    byte *image4R, *image4G, *image4B;
+    int width4, height4;
+    cout << "Loading image: " << image_file4 << endl;
+    loadColorImage(image_file4, image4R, image4G, image4B, width4, height4);
+    // Print statistics
+    cout << "Image size: " << width4 << "x" << height4 << endl;
+    cout << "Number of pixels: " << width4*height4 << endl;
+    
+    QuadTree<byte> *q4R, *q4G, *q4B;
+    dfsLossyCompressionRGB(image4R, image4G, image4B, q4R, q4G, q4B, 0, 0, width4, width4, height4, true, byte(8));
+    
+    // image decoding
+    byte* imageDecoded4R = new byte[width4 * height4];
+    byte* imageDecoded4G = new byte[width4 * height4];
+    byte* imageDecoded4B = new byte[width4 * height4];
+    quadtreeDecoding(q4R, imageDecoded4R, 0, 0, width4, height4);
+    quadtreeDecoding(q4G, imageDecoded4G, 0, 0, width4, height4);
+    quadtreeDecoding(q4B, imageDecoded4B, 0, 0, width4, height4);
+    
+    // Display image decoded
+    putColorImage(IntPoint2(0,0), imageDecoded4R, imageDecoded4G, imageDecoded4B, width4, height4);
     // Pause
     click();
     
@@ -102,15 +133,24 @@ int main(int argc, char **argv) {
     delete image;
     delete image2;
     delete image3;
+    delete image4R;
+    delete image4G;
+    delete image4B;
     
     delete q;
     delete qDAG;
     delete qDAG2;
     delete q3;
+    delete q4R;
+    delete q4G;
+    delete q4B;
     
     delete[] imageDecoded;
     delete[] imageDecoded2;
     delete[] imageDecoded3;
+    delete[] imageDecoded4R;
+    delete[] imageDecoded4G;
+    delete[] imageDecoded4B;
 
     delete black;
     delete white;
